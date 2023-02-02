@@ -1,0 +1,142 @@
+.cm-wrapper-header {
+    height: 48px;
+    padding: 8px 16px;
+    color: white;
+    box-shadow: 0px 1px 10px #888;
+}
+
+.cm-wrapper-header .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.cm-wrapper-header .search-input {
+    height: 100%;
+    color: #444;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #ccc;
+    flex: 5;
+    background: #fff;
+}
+
+.cm-wrapper-header .date-range-picker {
+    flex: 2;
+}
+
+.cm-wrapper-header .bell-color {
+    /* background: var(--main-green-color); */
+    color: #fff;
+}
+
+.cm-wrapper-header .search-input input,
+.search-input .ant-select-selector {
+    background: none !important;
+    border: none !important;
+}
+
+.cm-wrapper-header .my-search-icon {
+    background: var(--main-green-color);
+    color: #fff;
+    padding: 0.3rem;
+    border-radius: 0;
+    border: none;
+    transition: all 0.15s ease-out 0s;
+}
+
+.cm-wrapper-header .my-search-icon:hover {
+    background: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cm-wrapper-header .my-search-icon span {
+    color: #fff;
+}
+.cm-wrapper-header .my-search-icon:hover span {
+    color: var(--main-green-color);
+}
+
+.cm-wrapper-header .notifications-badge sup {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.cm-wrapper-header .account-settings {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.select-before {
+    flex: 1;
+}
+
+.cm-wrapper-header .boxes-container {
+    width: 58rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.2rem;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.cm-wrapper-header .boxes {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.cm-wrapper-header .icon-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cm-wrapper-header .searchbox-container {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.cm-wrapper-header .user-icon {
+    padding: 0.5rem;
+    background: rgba(96, 166, 48, 0.5);
+    color: #fff;
+}
+
+.cm-wrapper-header .right-side-icon-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cm-wrapper-header .count-container {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 91%;
+    font-size: 11px;
+}
+
+.cm-wrapper-header .icon-counter-container {
+    position: relative;
+}
